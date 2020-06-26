@@ -1,13 +1,13 @@
 # Fast-CMIM
-Fast but exact implementation of CMIM feature selection algorithm
-
-____
+ > A fast (but exact) implementation of CMIM feature selection algorithm
 
 This is a fast implementation of the Conditional Mutual Information Maximisation (CMIM) feature selection algorithm. 
 CMIM iteratively selects features by maximizing Mutual Information (MI) with a target variable, conditionned on previously selected features.
 
-Speed: 100 features selected among ~180 000 three-modalities features in about 7 minutes.
+Indicative speed: 100 features selected among ~180 000 three-modalities features in about 7 minutes.
 
+
+___
 
 References:
 
